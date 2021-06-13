@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link to="/ffd" />
+    <nuxt-link to="/ffd">WOw</nuxt-link>
   </div>
 </template>
 
