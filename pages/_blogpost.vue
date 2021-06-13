@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-        <h2>My first Blog Poast with title around 12 words </h2>
+      <h2>My first Blog Poast with title around 12 words which is awesome.</h2>
     </div>
     <nav-bar-post-page />
   </div>
