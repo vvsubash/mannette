@@ -1,6 +1,45 @@
 <template>
-  <div>
-    <div class="my-4 container mx-auto max-w-screen-md">
+  <div class="flex container mx-auto max-w-screen-md">
+    <nav
+      id="navbar"
+      class="
+        bg-yellow-100
+        block
+        fixed
+        inset-x-0
+        bottom-0
+        z-10
+        shadow
+        px-2
+        py-1
+        md:relative
+        md:top-0
+        md:inset-y-0
+        md:left
+        md:w-48
+        md:-ml-24
+      "
+    >
+      <div class="flex justify-between text-center md:flex-col md:items-center">
+        <span class="">
+          <outline-home-icon class="w-6 h-6" />
+          <h3 class="text-xs">Home</h3>
+        </span>
+        <span>
+          <outline-volume-up-icon class="w-6 h-6" />
+          <h3 class="text-xs">Listen</h3>
+        </span>
+        <span class="">
+          <outline-translate-icon class="w-6 h-6" />
+          <h3 class="text-xs">Translations</h3>
+        </span>
+        <span>
+          <outline-chat-alt2-icon class="w-6 h-6" />
+          <h3 class="text-xs">Comments</h3>
+        </span>
+      </div>
+    </nav>
+    <div class="my-4">
       <h2
         class="text-3xl font-semibold mx-6 my-4 leading-none tracking-tighter"
       >
@@ -42,7 +81,6 @@
         leap into electronic typesetting, remaining essentially unchanged.
       </p>
     </div>
-    <nav-bar-post-page />
   </div>
 </template>
 
