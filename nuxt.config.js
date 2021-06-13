@@ -25,6 +25,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
+    '@nuxt-hero-icons/outline/nuxt',
     '@nuxt/typescript-build',
     'nuxt-windicss',
   ],
