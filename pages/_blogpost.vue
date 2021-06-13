@@ -65,4 +65,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+p {
+  text-indent: 2em;
+}
 </style>
