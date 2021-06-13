@@ -1,5 +1,5 @@
 <template>
-  <div class="font-mono">
+  <div class="bg-yellow-100">
     <h1 class="text-center text-5xl tracking-tighter font-bold pb-2 pt-4">
       Late Yet Eternal
     </h1>

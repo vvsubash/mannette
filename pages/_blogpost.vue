@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="my-4 container mx-auto">
-      <h2 class="text-3xl font-semibold mx-6 my-4">
+      <h2
+        class="text-3xl font-semibold mx-6 my-4 leading-none tracking-tighter"
+      >
         My first Blog Post with title around 12 words which is awesome.
       </h2>
       <p class="mx-6 leading-tight tracking-tighter my-2">
