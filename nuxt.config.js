@@ -38,6 +38,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'nuxt-i18n',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -52,7 +53,10 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
-
+  i18n: {
+    locales: ['en', 'te', 'hi'],
+    defaultLocale: 'en',
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
